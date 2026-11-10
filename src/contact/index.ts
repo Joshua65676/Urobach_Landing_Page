@@ -1,4 +1,4 @@
-import { Architect, Furniture, Home } from "../assets";
+import { Architect, Facebook, Furniture, Home, Instagram, LinkedIn, ProfilePics, Project1, Project2, Review } from "../assets";
 
 export const NavList = [
     {name: "Our Services", link: "/services"},
@@ -36,3 +36,32 @@ export const ServiceList = [
      image: Home
     },
 ];
+
+export const Portfolios = [
+    {name: "House Architecture Design in Ohio", image: Project1, link: "/"},
+    {name: "Interior Design in Ohio", image: Project2, link: "/"},
+]
+
+export const Reviews = [
+    {
+     name: "James Allen",
+     image: Review,
+     description: "They truly listened to our needs and brought our vision to life in ways we never imagined. The attention to detail, creativity, and professionalism throughout the entire process was outstanding. Our new space is not only beautiful but perfectly functional — it feels like it was made just for us.",
+     profile: ProfilePics,
+     location: "Monroe, Ohio"
+    }
+]
+
+export const SocialLink = [
+    {icon: Facebook, link: "/"},
+    {icon: Instagram, link: "/"},
+    {icon: LinkedIn, link: "/"}
+]
+
+export const FooterLink = [
+    {name: "Home", link: "/home"},
+    {name: "Our Services", link: "/services"},
+    {name: "About Us", link: "/about"},
+    {name: "Our Portfolio", link: "/portfolio"},
+    {name: "Testimonials", link: "/testimonials"},
+]

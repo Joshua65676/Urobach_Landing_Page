@@ -36,6 +36,8 @@
     --color-Bg: rgba(245, 245, 245, 1);
     --color-Text: rgba(116, 112, 112, 1);
     --color-Text2: rgba(147, 144, 144, 0.95);
+    --color-black: rgba(0, 0, 0, 1);
+    --color-InputBg: rgba(217, 217, 217, 0);
     --font-sf: "SF Pro Display", -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
     --shadow-Button: 0 4px 4px 0 rgba(231, 226, 226, 1);
     --shadow-Button2: 0 7px 4px 0 rgba(61, 54, 54, 0.25);
